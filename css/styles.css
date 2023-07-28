@@ -14,6 +14,9 @@
   --primary-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
 }
+p {
+  margin: 0%;
+}
 
 body {
   font-family: var(--logo-font);
@@ -217,7 +220,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
 }
 .text {
   color: var(--color-slate);
@@ -225,11 +227,26 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  text-align: center;
-  margin: auto;
 }
-
+.text-team {
+  color: var(--color-slate);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin: auto;
+  text-align: center;
+}
+.title-team {
+  color: var(--color-navy-blue);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+}
 /* SECTION PAGE THREE */
 .container-page-three {
   margin: auto;
@@ -305,7 +322,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  margin-right: 76px;
   display: flex;
   display: inline-block;
   margin-bottom: 16px;
@@ -316,9 +332,6 @@ img {
 .page-footer {
   background-color: var(--color-navy-blue);
   margin: auto;
-  width: 1440px;
-  height: 312px;
-  margin: auto;
   padding: 100px 0;
 }
 .footer-text {
@@ -327,8 +340,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  height: 72px;
+  max-width: 264px;
 }
 .span-studio-footer {
   color: var(--color-cloud);
