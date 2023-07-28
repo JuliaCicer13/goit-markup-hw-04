@@ -228,25 +228,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.text-team {
-  color: var(--color-slate);
-  font-family: var(--primary-font);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin: auto;
-  text-align: center;
-}
-.title-team {
-  color: var(--color-navy-blue);
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  text-align: center;
-}
+
 /* SECTION PAGE THREE */
 .container-page-three {
   margin: auto;
@@ -304,6 +286,25 @@ img {
   list-style: none;
   display: flex;
   gap: 24px;
+}
+.text-team {
+  color: var(--color-slate);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin: auto;
+  text-align: center;
+}
+.title-team {
+  color: var(--color-navy-blue);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .team-card {
   background-color: var(--color-white);
