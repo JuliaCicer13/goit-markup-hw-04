@@ -365,6 +365,7 @@ img {
 .icon {
   fill: var(--color-cloud);
 }
+
 .icon-card:hover {
   background-color: var(--color-ocean);
 }
