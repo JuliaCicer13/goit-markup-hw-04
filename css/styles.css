@@ -86,7 +86,6 @@ body {
   letter-spacing: 0.02em;
   gap: 40px;
   padding: 24px 0;
-  position: relative;
 }
 
 .link {
@@ -105,13 +104,15 @@ body {
 .current::after {
   content: "";
   position: absolute;
-  width: 100px;
+  width: 100%;
+  height: 2%;
   left: 0;
   bottom: -1px;
   height: 4px;
   background-color: var(--color-ocean);
   border-radius: 2px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
 }
 
 /* ADRESS */
@@ -375,7 +376,10 @@ img {
   margin-bottom: 16px;
 }
 .container-footer {
+  display: flex;
   margin: auto;
+  align-items: baseline;
+  margin-right: 120px;
 }
 .page-footer {
   background-color: var(--color-navy-blue);
@@ -406,6 +410,8 @@ img {
   line-height: 24px;
   width: 96px;
   height: 24px;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 /* PORTFOLIO */
 
@@ -439,13 +445,18 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
+
 .button-filter:hover {
   color: var(--color-white);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-filter:focus {
   color: var(--color-white);
   border: 1px solid transparent;
+  box-shadow: зі значенням 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-filter:hover {
   background-color: var(--color-ocean);
