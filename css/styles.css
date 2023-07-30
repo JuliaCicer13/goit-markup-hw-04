@@ -338,6 +338,34 @@ img {
   margin-bottom: 8px;
   text-align: center;
 }
+.icon-list-item {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+.icon-card {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  fill: var(--color-cloud);
+}
+.social-icon:hover {
+  background-color: var(--color-ocean);
+}
+.social-icon:focus {
+  background-color: var(--color-ocean);
+}
 .team-card {
   background-color: var(--color-white);
   border-radius: 0px 0px 4px 4px;
