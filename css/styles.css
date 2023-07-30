@@ -346,6 +346,8 @@ img {
 .section-page-five {
   margin: auto;
   background-color: var(--color-white);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .title-customers {
   font-family: var(--primary-font);
@@ -357,6 +359,40 @@ img {
   margin: auto;
   width: 183px;
   height: 40px;
+  line-height: 1.11;
+  margin-bottom: 72px;
+}
+.icons-customers {
+  display: flex;
+  gap: 24px;
+  fill: currentColor;
+}
+.icon-group {
+  width: calc((100% - 120px) / 6);
+  list-style: none;
+  height: 88px;
+}
+.link-costumers {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-slate);
+}
+.link-costumers :hover {
+  border-color: var(--color-ocean);
+}
+.link-costumers:hover {
+  color: var(--color-ocean);
+}
+.link-costumers:focus {
+  border-color: var(--color-ocean);
+}
+.link-costumers:focus {
+  color: var(--color-ocean);
 }
 /* page-footer */
 .logo-footer {
