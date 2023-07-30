@@ -208,6 +208,15 @@ body {
   gap: 24px;
   list-style: none;
 }
+.icon-section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: var(--color-cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
