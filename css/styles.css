@@ -476,7 +476,6 @@ img {
   color: var(--color-cloud);
 }
 .container-media {
-  margin: auto;
 }
 .title-media {
   font-family: var(--primary-font);
