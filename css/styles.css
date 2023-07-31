@@ -396,16 +396,14 @@ img {
   padding-bottom: 120px;
 }
 .title-customers {
-  font-family: var(--primary-font);
-  color: var(--color-navy-blue);
   font-size: 36px;
-  line-height: 40px;
-  font-weight: 700px;
+  font-weight: 700;
   align-items: center;
   width: 183px;
   height: 40px;
   line-height: 1.11;
   margin-bottom: 72px;
+  color: var(--color-navy-blue);
 }
 .icons-customers {
   display: flex;
