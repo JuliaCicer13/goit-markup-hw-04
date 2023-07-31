@@ -454,7 +454,6 @@ img {
   margin-bottom: 16px;
 }
 .container-footer {
-  margin: auto;
   display: flex;
   align-items: baseline;
 }
@@ -478,7 +477,7 @@ img {
   color: var(--color-cloud);
 }
 .container-media {
-  display: flex;
+  margin: auto;
 }
 .title-media {
   font-family: var(--primary-font);
@@ -486,12 +485,11 @@ img {
   align-items: center;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  width: 96px;
   height: 24px;
-  display: flex;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  display: flex;
+  line-height: 1.5;
 }
 .icon-footer {
   display: flex;
@@ -519,7 +517,7 @@ img {
   background-color: var(--color-green);
 }
 .icon-end {
-  fill: var(--color-iris);
+  fill: var(--color-cloud);
 }
 
 /* PORTFOLIO */
