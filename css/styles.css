@@ -30,14 +30,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .page-header {
   border-bottom: 1px;
   background-color: var(--color-white);
 
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container-header {
   width: 1158px;
@@ -382,6 +382,7 @@ img {
 .container-worker {
   padding: 32px 0;
 }
+/* section-five */
 
 .container-page-five {
   margin: auto;
@@ -399,7 +400,6 @@ img {
   line-height: 40px;
   font-weight: 700px;
   align-items: center;
-  margin: auto;
   width: 183px;
   height: 40px;
   line-height: 1.11;
@@ -424,6 +424,8 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--color-light-slate);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-costumers:hover {
   border-color: var(--color-ocean);
@@ -509,6 +511,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-footer:hover {
   background-color: var(--color-green);
@@ -533,10 +536,6 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-botton {
   list-style: none;
@@ -554,6 +553,10 @@ img {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-filter:hover {
   color: var(--color-white);
@@ -569,11 +572,11 @@ img {
 .button-filter:focus {
   background-color: var(--color-ocean);
 }
-.list-filter:hover {
+.list-botton:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.list-filter:focus {
+.list-botton:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
