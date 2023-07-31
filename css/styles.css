@@ -478,7 +478,6 @@ img {
   color: var(--color-cloud);
 }
 .container-media {
-  margin: auto;
   display: flex;
 }
 .title-media {
