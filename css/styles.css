@@ -561,10 +561,10 @@ img {
 .icon-x {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-x:hover {
+.window-button:hover {
   fill: #ffffff;
 }
-.icon-x:focus {
+.window-button:focus {
   fill: #ffffff;
 }
 .modal-window {
