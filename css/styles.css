@@ -433,13 +433,13 @@ img {
 .link-customers:hover {
   border-color: var(--color-ocean);
 }
-.icon-customers:hover {
+.link-customers:hover .icon-customers {
   color: var(--color-ocean);
 }
 .link-customers:focus {
   border-color: var(--color-ocean);
 }
-.icon-customers:focus {
+.link-customers:focus .icon-customers {
   color: var(--color-ocean);
 }
 
