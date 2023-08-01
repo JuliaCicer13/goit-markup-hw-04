@@ -430,16 +430,16 @@ img {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--color-light-slate);
 }
-.link-customers:hover .icon-customers {
+.link-customers:hover {
   border-color: var(--color-ocean);
 }
-.link-customers:hover .icon-customers {
+.link-customers:hover {
   color: var(--color-ocean);
 }
-.link-customers:focus .icon-customers {
+.link-customers:focus {
   border-color: var(--color-ocean);
 }
-.link-customers:focus .icon-customers {
+.link-customers:focus {
   color: var(--color-ocean);
 }
 
